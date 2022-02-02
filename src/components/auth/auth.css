@@ -1,0 +1,36 @@
+#Auth{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#AuthBlock{
+    border: 1px solid #e9e9e9;
+    padding: 20px;
+    border-radius: 5px;
+}
+.authInputBlock{
+    margin-top: 13px;
+}
+#AuthButtonBlock{
+    display: flex;
+    justify-content: flex-end;
+}
+#AuthButton{
+    background: #1a3555;
+    color: white;
+    padding: 3px 10px;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 0.9;
+}
+#AuthButton:hover{
+    opacity: 1;
+}
+#ValidBlock{
+    max-width: 180px;
+}

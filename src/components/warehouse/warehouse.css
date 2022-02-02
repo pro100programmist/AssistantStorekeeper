@@ -1,0 +1,58 @@
+.warehouseItemBlock{
+    display: flex;
+    margin-top: 13px;
+    cursor: pointer;
+    background: #edecec;
+    padding: 13px;
+    border-radius: 5px;
+    margin-top: 13px;
+    align-items: center;
+}
+.warehouseItemNumber{
+    margin-right: 5px;
+}
+.remainsItemBlock{
+    display: flex;
+    background: #edecec;
+    padding: 13px;
+    border-radius: 5px;
+    margin-top: 13px;
+    align-items: center;
+}
+.remainsItem{
+    display: flex;
+    margin-right: 13px;
+    align-items: center;
+}
+.remainsItem>.inputLabel{
+    margin-right: 5px;
+}
+.remainsText{
+    font-weight: bold;
+}
+#RemainsFilterBlock{
+    margin: 13px 0;
+    display: flex;
+    padding: 13px;
+    border: 2px dashed #e9e9e9;
+    border-radius: 5px;
+}
+.remainsFilterItemBlock{
+    margin-right: 13px;
+}
+#FilterButtonBlock{
+    display: flex;
+    align-items: flex-end;
+}
+#FilterButton{
+    background: #1a3555;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 0.9;
+    width: max-content;
+    height: max-content;
+}

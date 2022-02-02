@@ -1,0 +1,13 @@
+.nomenclatureItemBlock{
+    display: flex;
+    margin-top: 13px;
+    cursor: default;
+    background: #edecec;
+    padding: 13px;
+    border-radius: 5px;
+    margin-top: 13px;
+    align-items: center;
+}
+.nomenclatureItemNumber{
+    margin-right: 5px;
+}
